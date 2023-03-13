@@ -16,6 +16,16 @@ body{
   box-shadow: 10px solid red;
   font-size: 20px;
   color: rgb(170, 113, 7);
+  
+}
+
+.input:hover{
+  box-shadow: 5px 10px 30px rgb(221, 40, 85);
+}
+
+.input:focus{
+  outline: none;
+  box-shadow: 5px 10px 30px rgb(221, 40, 85);
 }
 
 .mainbtn{
@@ -26,7 +36,6 @@ body{
   border-radius: 30px;
   font-size: 18px;
   color: rgb(212, 187, 162);
-  box-shadow: 5px 10px 30px brown;
   padding: 10px;
 }
 
